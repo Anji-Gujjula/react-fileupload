@@ -1,0 +1,48 @@
+Create React App:
+Open your terminal, navigate to your project directory, and create a new React app:
+
+bash
+
+npx create-react-app file-upload-download-frontend
+
+cd file-upload-download-frontend
+
+Install Axios:
+
+Axios is a popular HTTP client for making requests. Install it using npm:
+
+bash
+
+    npm install axios
+
+ Create File Upload Component
+
+    Create FileUpload.js:
+
+    Inside the src folder, create a components folder and add a new file called FileUpload.js:
+
+
+Create File Download Component
+
+    Create FileDownload.js:
+
+    Inside the components folder, create a FileDownload.js file:
+
+Update App.js:
+
+Open src/App.js and modify it to include both FileUpload and FileDownload 
+
+
+
+Start the React App:
+
+Run the following command to start your React app:
+
+bash
+
+npm start
+
+Test the Application:
+
+    Upload a File: Use the upload form to select and upload a file. The file will be sent to the Spring Boot backend and saved in the uploads folder.
+    Download a File: Enter the filename (including the extension) in the download form to download the file from the server.
